@@ -14,11 +14,18 @@ class Home extends StatelessWidget{
         //height: 100.0,
         padding: EdgeInsets.all(5.0),
         //margin: EdgeInsets.all(10.0),
-        margin: EdgeInsets.only(right: 20.0, left: 20.0),
+        //margin: EdgeInsets.only(right: 20.0, left: 20.0),
         child: Text(
                 "I am in home",
                  textDirection: TextDirection.ltr,
-                 style: TextStyle(fontSize: 20.0),
+                 style: TextStyle(
+                     fontSize: 20.0,
+                   decoration: TextDecoration.none,
+                   fontFamily: 'Raleway',
+                   fontWeight: FontWeight.w700,
+                   //fontStyle: FontStyle.italic
+                   color: Colors.white
+                 ),
         ),
       ) ,
     ) ;
